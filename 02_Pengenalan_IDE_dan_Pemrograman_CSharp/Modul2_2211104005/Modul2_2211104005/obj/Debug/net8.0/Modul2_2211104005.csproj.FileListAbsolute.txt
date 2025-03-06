@@ -1,0 +1,15 @@
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\bin\Debug\net8.0\Modul2_2211104005.exe
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\bin\Debug\net8.0\Modul2_2211104005.deps.json
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\bin\Debug\net8.0\Modul2_2211104005.runtimeconfig.json
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\bin\Debug\net8.0\Modul2_2211104005.dll
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\bin\Debug\net8.0\Modul2_2211104005.pdb
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.GeneratedMSBuildEditorConfig.editorconfig
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.AssemblyInfoInputs.cache
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.AssemblyInfo.cs
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.csproj.CoreCompileInputs.cache
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.sourcelink.json
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.dll
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\refint\Modul2_2211104005.dll
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.pdb
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\Modul2_2211104005.genruntimeconfig.cache
+D:\KPL\02_Pengenalan_IDE_dan_Pemrograman_CSharp\Modul2_2211104005\Modul2_2211104005\obj\Debug\net8.0\ref\Modul2_2211104005.dll
