@@ -1,17 +1,17 @@
 ﻿using System;
 
-class HaloGeneric
+class HaloGeneric<T>
 {
-    public static void SapaUser<T>(T nama)
+    public void SapaUser(T nama)
     {
         Console.WriteLine($"Halo user {nama}");
     }
 }
-
 class Program
 {
     static void Main()
     {
-        HaloGeneric.SapaUser("[Nama Panggilan Praktikan]");
+        HaloGeneric<string> sapa = new HaloGeneric<string>();
+        sapa.SapaUser("Nita");  // Menggunakan nama panggilan
     }
 }
