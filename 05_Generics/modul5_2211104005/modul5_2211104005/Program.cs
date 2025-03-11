@@ -1,11 +1,20 @@
-﻿public class Penjumlahan
+﻿public class SimpleDataBase<T>
 {
-    public static T JumlahTigaAngka<T>(T a, T b, T c) where T : struct
+    private List<T> storedData = new List<T>();
+    private List<DateTime> inputDates = new List<DateTime>();
+
+    public void AddNewData(T data)
     {
-        dynamic x = a;
-        dynamic y = b;
-        dynamic z = c;
-        return x + y + z;
+        storedData.Add(data);
+        inputDates.Add(DateTime.UtcNow);
+    }
+
+    public void PrintAllData()
+    {
+        for (int i = 0; i < storedData.Count; i++)
+        {
+            Console.WriteLine($"Data {i + 1} berisi: {storedData[i]}, disimpan pada waktu UTC: {inputDates[i]}");
+        }
     }
 }
 
@@ -13,7 +22,10 @@ class Program
 {
     static void Main()
     {
-        double hasil = Penjumlahan.JumlahTigaAngka(22.0, 11.0, 10.0);
-        Console.WriteLine($"Hasil penjumlahan: {hasil}");
+        SimpleDataBase<double> db = new SimpleDataBase<double>();
+        db.AddNewData(22.0);
+        db.AddNewData(11.0);
+        db.AddNewData(10.0);
+        db.PrintAllData();
     }
 }
