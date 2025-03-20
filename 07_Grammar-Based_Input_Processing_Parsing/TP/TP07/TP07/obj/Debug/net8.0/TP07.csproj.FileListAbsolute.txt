@@ -1,0 +1,15 @@
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\bin\Debug\net8.0\TP07.exe
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\bin\Debug\net8.0\TP07.deps.json
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\bin\Debug\net8.0\TP07.runtimeconfig.json
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\bin\Debug\net8.0\TP07.dll
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\bin\Debug\net8.0\TP07.pdb
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.GeneratedMSBuildEditorConfig.editorconfig
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.AssemblyInfoInputs.cache
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.AssemblyInfo.cs
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.csproj.CoreCompileInputs.cache
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.sourcelink.json
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.dll
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\refint\TP07.dll
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.pdb
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\TP07.genruntimeconfig.cache
+D:\KPL\07_Grammar-Based_Input_Processing_Parsing\TP\TP07\TP07\obj\Debug\net8.0\ref\TP07.dll
