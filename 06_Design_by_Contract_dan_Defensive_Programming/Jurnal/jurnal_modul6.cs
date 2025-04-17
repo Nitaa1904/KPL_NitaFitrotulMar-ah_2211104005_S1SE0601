@@ -9,7 +9,9 @@ class SayaTubeVideo
 
     public SayaTubeVideo(string title)
     {
-       
+        if (title == null || title.Length > 200)
+            throw new ArgumentException("Judul video tidak boleh null dan maksimal 200 karakter.");
+
         Random rand = new Random();
         this.id = rand.Next(10000, 99999); // ID random 5 digit
         this.title = title;
@@ -18,7 +20,11 @@ class SayaTubeVideo
 
     public void IncreasePlayCount(int count)
     {
-       
+        if (count > 25000000 || count < 0)
+            throw new ArgumentException("Play count maksimal 25.000.000 per panggilan " +
+                "dan tidak boleh bilangan negatif.");
+
+        checked
         {
             playCount += count;
         }
@@ -50,7 +56,9 @@ class SayaTubeUser
 
     public SayaTubeUser(string username)
     {
-       
+        if (username == null || username.Length > 100)
+            throw new ArgumentException("Username tidak boleh null dan maksimal 100 karakter.");
+
         Random rand = new Random();
         this.id = rand.Next(10000, 99999); // ID random 5 digit
         this.Username = username;
@@ -59,7 +67,9 @@ class SayaTubeUser
 
     public void AddVideo(SayaTubeVideo video)
     {
-       
+        if (video == null)
+            throw new ArgumentException("Video yang ditambahkan tidak boleh null.");
+
         uploadedVideos.Add(video);
     }
 
@@ -80,7 +90,7 @@ class SayaTubeUser
         {
             Console.WriteLine($"Video {i + 1} judul: {uploadedVideos[i].GetTitle()}");
         }
-        
+        Console.WriteLine($"\nTotal play count: {GetTotalVideoPlayCount()}");
     }
 }
 
@@ -114,5 +124,20 @@ class Program
 
             user.PrintAllVideoPlaycount();
 
+            // Simulasi error play count
+            try
+            {
+                SayaTubeVideo testVideo = new SayaTubeVideo("Test Video Error");
+                testVideo.IncreasePlayCount(30000000); // Melebihi batas
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error: {ex.Message}");
+        }
     }
 }
